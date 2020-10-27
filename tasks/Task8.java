@@ -1,0 +1,22 @@
+package tasks;
+
+import java.util.Arrays;
+
+public class Task8 extends Task {
+    static String taskName = "Task 8";
+    static int[] input = {9, 7, 3, 2, 1, 5, 8, 4, 6};
+
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public int[] task() {
+        return input;
+    }
+
+    public boolean test() {
+        int[] output = {9, 1, 2, 3, 4, 5, 7, 8, 6};
+        
+        return Arrays.equals(task(), output);
+    }
+}
