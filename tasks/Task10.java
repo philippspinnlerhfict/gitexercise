@@ -13,7 +13,14 @@ public class Task10 extends Task {
     }
 
     public String task() {
-        return input;
+        byte[] temp = input.getBytes();
+        byte[] result = new byte[temp.length];
+
+        for (int i = 0; i < temp.length; i++) {
+            result[result.length - i - 1] = temp[i];
+        }
+
+        return new String(result);
     }
 
     public boolean test() {
