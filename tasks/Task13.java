@@ -16,7 +16,11 @@ public class Task13 extends Task {
     }
 
     public String[] task() {
-        return new String[0];
+        String[] output = new String[input1.length + input2.length];
+        System.arraycopy(input1, 0, output, 0, input1.length);
+        System.arraycopy(input2, 0, output, input1.length, input2.length);
+
+        return output;
     }
 
     public boolean test() {
