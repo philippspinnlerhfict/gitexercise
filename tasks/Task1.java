@@ -1,5 +1,6 @@
 package tasks;
 import java.util.Arrays;
+import java.util.Locale;
 
 /**
  * Uppercase
@@ -13,7 +14,17 @@ public class Task1 extends Task {
         return taskName;
     }
 
-    public String[] task() { return input; }
+    public String[] task() {
+
+        String[] output = new String[input.length];
+
+        for (int x = 0; x < input.length; x++) {
+            output[x] = input[x].toUpperCase();
+        }
+
+        return output;
+
+    }
 
     public boolean test() {
         String[] output = {"SMALL", "SMALL", "SMALL", "SMALL", "BIG", "BIG", "BIG"};
