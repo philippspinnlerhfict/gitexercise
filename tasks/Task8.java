@@ -2,6 +2,10 @@ package tasks;
 
 import java.util.Arrays;
 
+/**
+ * Sort between first and last entry
+ */
+
 public class Task8 extends Task {
     static String taskName = "Task 8";
     static int[] input = {9, 7, 3, 2, 1, 5, 8, 4, 6};

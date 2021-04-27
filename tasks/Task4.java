@@ -1,6 +1,10 @@
 package tasks;
 import java.util.Arrays;
 
+/**
+ * One character per iteration
+ */
+
 public class Task4 extends Task {
     static String taskName = "Task 4";
     static String[] input = {"Hello", "Hello", "Hello", "Hello", "Hello"};

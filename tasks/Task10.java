@@ -1,5 +1,8 @@
 package tasks;
 
+/**
+ * Reverse string
+ */
 
 public class Task10 extends Task {
     static String taskName = "Task 10";

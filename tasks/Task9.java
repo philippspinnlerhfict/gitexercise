@@ -2,6 +2,10 @@ package tasks;
 
 import java.util.Arrays;
 
+/**
+ * Reverse sorting
+ */
+
 public class Task9 extends Task {
     static String taskName = "Task 9";
     int[] input = {9, 7, 3, 2, 1, 5, 8, 4, 6};

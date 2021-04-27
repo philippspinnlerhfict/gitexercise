@@ -2,7 +2,9 @@ package tasks;
 
 import java.util.Arrays;
 
-import org.graalvm.compiler.graph.InputEdges;
+/**
+ * Check if int is odd or even
+ */
 
 public class Task12 extends Task {
     static String taskName = "Task 12";

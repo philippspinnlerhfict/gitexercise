@@ -1,5 +1,9 @@
 package tasks;
 
+/**
+ * Filter everything between # ang @
+ */
+
 public class Task11 extends Task {
     static String taskName = "Task 11";
     static String[] inputs = {"#this@notthis", "notme#butme@@#", "#here@@nothere#"};

@@ -2,6 +2,9 @@ package tasks;
 
 import java.util.Arrays;
 
+/**
+ * Distinct
+ */
 
 public class Task14 extends Task {
     static String taskName = "Task 14";

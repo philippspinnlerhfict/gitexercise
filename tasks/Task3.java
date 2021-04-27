@@ -1,6 +1,10 @@
 package tasks;
 import java.util.Arrays;
 
+/**
+ * Trim
+ */
+
 public class Task3 extends Task {
     static String taskName = "Task 3";
     static String[] input = {" text ", "  text", "text  ", " te xt  "};

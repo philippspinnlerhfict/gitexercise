@@ -2,6 +2,9 @@ package tasks;
 
 import java.util.Arrays;
 
+/**
+ * Count chars
+ */
 
 public class Task15 extends Task {
     static String taskName = "Task 15";

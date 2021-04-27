@@ -1,6 +1,10 @@
 package tasks;
 import java.util.Arrays;
 
+/**
+ * Uppercase
+ */
+
 public class Task1 extends Task {
     static String taskName = "Task 1";
     static String[] input = {"small", "Small", "SMALL", "SmaLL", "BIG", "big", "Big"};
@@ -9,9 +13,7 @@ public class Task1 extends Task {
         return taskName;
     }
 
-    public String[] task() {
-        return input;
-    }
+    public String[] task() { return input; }
 
     public boolean test() {
         String[] output = {"SMALL", "SMALL", "SMALL", "SMALL", "BIG", "BIG", "BIG"};

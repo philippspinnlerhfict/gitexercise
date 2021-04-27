@@ -1,6 +1,10 @@
 package tasks;
 import java.util.Arrays;
 
+/**
+ * Lowercase
+ */
+
 public class Task2 extends Task {
     static String taskName = "Task 2";
     static String[] input = {"small", "Small", "SMALL", "SmaLL", "BIG", "big", "Big"};

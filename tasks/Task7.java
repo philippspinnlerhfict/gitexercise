@@ -2,6 +2,10 @@ package tasks;
 
 import java.util.Arrays;
 
+/**
+ * Sorting
+ */
+
 public class Task7 extends Task {
     static String taskName = "Task 7";
     static int[] input = {9, 7, 3, 2, 1, 5, 8, 4, 6};
