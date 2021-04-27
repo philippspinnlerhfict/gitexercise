@@ -15,7 +15,10 @@ public class Task14 extends Task {
     }
 
     public int[] task() {
-        return input;
+
+        int[] output = Arrays.stream(input).distinct().toArray();
+
+        return output;
     }
 
     public boolean test() {
