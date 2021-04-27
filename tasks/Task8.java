@@ -15,6 +15,18 @@ public class Task8 extends Task {
     }
 
     public int[] task() {
+        int[] temp = new int[input.length-2];
+
+        for (int i = 1; i < input.length-1; i++){
+            temp[i-1] = input[i];
+        }
+
+        Arrays.sort(temp);
+
+        for (int i = 1; i < input.length-1; i++){
+            input[i] = temp[i-1];
+        }
+
         return input;
     }
 
