@@ -15,7 +15,12 @@ public class Task15 extends Task {
     }
 
     public int[] task() {
-        return new int[0];
+        int[] output = new int[input.length];
+        for (int i = 0; i < output.length; i++) {
+            output[i] = input[i].length();
+        }
+
+        return output;
     }
 
     public boolean test() {

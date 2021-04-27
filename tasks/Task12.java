@@ -15,7 +15,15 @@ public class Task12 extends Task {
     }
 
     public String[] task() {
-        return new String[0];
+        String[] output = new String[input.length];
+        for (int i = 0; i < output.length; i++) {
+            if (input[i] % 2 == 0) {
+                output[i] = "even";
+            } else {
+                output[i] = "odd";
+            }
+        }
+        return output;
     }
 
     public boolean test() {

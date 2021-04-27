@@ -1,7 +1,9 @@
 package tasks;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
- * Filter everything between # ang @
+ * Filter everything between # and @
  */
 
 public class Task11 extends Task {
@@ -13,7 +15,8 @@ public class Task11 extends Task {
     }
 
     public String task(String input) {
-        return "";
+        String output = input.split("#")[1];
+        return output.split("@")[0];
     }
 
     public boolean test() {
