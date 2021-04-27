@@ -1,6 +1,7 @@
 package tasks;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 /**
  * Reverse sorting
@@ -15,7 +16,14 @@ public class Task9 extends Task {
     }
 
     public int[] task() {
-        return input;
+        Arrays.sort(input);
+        int[] out = new int[input.length];
+
+        for (int i = 0; i < input.length; i++){
+            out[i] = input[input.length - i - 1];
+        }
+
+        return out;
     }
 
     public boolean test() {
