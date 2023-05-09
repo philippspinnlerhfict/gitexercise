@@ -14,6 +14,12 @@ public class Task2 extends Task {
     }
 
     public String[] task() {
+        int i = 0;
+        for (String inputTemp : input) {
+            input[i] = inputTemp.toLowerCase();
+            i++;
+        }
+
         return input;
     }
 
