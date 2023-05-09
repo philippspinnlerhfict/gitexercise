@@ -14,7 +14,12 @@ public class Task4 extends Task {
     }
 
     public String[] task() {
-        return input;
+        String output[] = new String[input.length];
+        for (int i = 0; i < input.length; i++) {
+            char j = input[i].charAt(i);
+            output[i] = String.valueOf(j);
+        }
+        return output;
     }
 
     public boolean test() {
