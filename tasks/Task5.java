@@ -13,6 +13,11 @@ public class Task5 extends Task {
     }
 
     public String task() {
+        String reversed = "";
+        for (int i = 0; i < input.length(); i++) {
+            reversed = input.charAt(i) + reversed;
+        }
+        input = reversed;
         return input;
     }
 
