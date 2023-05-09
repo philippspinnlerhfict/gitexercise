@@ -13,6 +13,17 @@ public class Task6 extends Task {
     }
 
     public String task(String input) {
+        String reversed = "";
+        for (int i = 0; i < input.length(); i++) {
+            if(i+1 != input.length()){
+                reversed = reversed + input.charAt(i) + "_";
+            }
+            else{
+                reversed = reversed + input.charAt(i);
+            }
+        }
+        input = reversed;
+        System.out.println(input);
         return input;
     }
 
