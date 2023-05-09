@@ -15,6 +15,7 @@ public class Task8 extends Task {
     }
 
     public int[] task() {
+        Arrays.sort(input, 1, input.length - 1);
         return input;
     }
 
