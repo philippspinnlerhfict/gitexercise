@@ -13,7 +13,17 @@ public class Task1 extends Task {
         return taskName;
     }
 
-    public String[] task() { return input; }
+    public String[] task() { 
+        int i= 0;
+        for(String inp: input){
+
+            input[i] = inp.toUpperCase();
+            i++;
+        }
+
+
+        return input; 
+    }
 
     public boolean test() {
         String[] output = {"SMALL", "SMALL", "SMALL", "SMALL", "BIG", "BIG", "BIG"};
